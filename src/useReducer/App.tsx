@@ -1,14 +1,16 @@
 import React from 'react';
 
-import HookCounter from './HookCounter_4';
-// import UseStateWithArray from './UseStateWithArray';
+import CounterOne from './CounterOne';
+// import CounterTwo from './CounterTwo3';
+import CounterThree from './CounterThree';
 // import DataFetchingOne from './DataFetchingOne';
 
 const App = () => {
   return (
     <div className='App'>
-      <HookCounter />
-      {/* <UseStateWithArray /> */}
+      {/* <CounterOne /> */}
+      {/* <CounterTwo /> */}
+      <CounterThree />
       {/* <DataFetchingOne /> */}
     </div>
   );

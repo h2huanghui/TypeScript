@@ -4,7 +4,7 @@ function HookCounter() {
   const initialCount = 0;
   const [count, setCount] = useState(initialCount);
 
-  // 通过 function 的方式传入 value 再返回变化后的新 value
+  // 使用 previous state,通过 function 的方式传入 value 再返回变化后的新 value
   const increment5 = () => {
     for (let i = 0; i < 5; i++) {
       setCount((prevCount) => prevCount + 1);

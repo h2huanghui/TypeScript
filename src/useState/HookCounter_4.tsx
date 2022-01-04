@@ -13,6 +13,7 @@ function HookCounter() {
         value={name.firstName}
         onChange={(e) => {
           setName({
+            ...name,
             firstName: e.target.value,
           });
         }}
@@ -22,6 +23,7 @@ function HookCounter() {
         value={name.lastName}
         onChange={(e) => {
           setName({
+            ...name,
             lastName: e.target.value,
           });
         }}
