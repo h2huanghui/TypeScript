@@ -20,5 +20,3 @@ const memoizedCallback = useCallback(
 
 - 返回一个 memoized 回调函数。
 - 把内联函数及依赖项数组作为参数传入 useCallback,它将返回该回调函数的 memoized 版本，该回调函数仅在某个依赖项改变时才会更新
-
-## useMemo
