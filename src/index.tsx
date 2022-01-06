@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import './datatype';
+
 // import App from './useState/App';
 // import App from './useEffect/App';
 // import App from './useContext/App';
