@@ -50,24 +50,25 @@ const reducer = (state, action) => {
 function DataFetchingTwo() {
     const [state, dispatch] = react_1.useReducer(reducer, initialState);
     react_1.useEffect(() => {
-        axios_1.default.get('https://jsonplaceholder.typicode.com/posts/1').then((res) => {
+        axios_1.default
+            .get('https://jsonplaceholder.typicode.com/posts/1')
+            .then((res) => {
             dispatch({
                 type: 'FETCH_SUCCESS',
                 payload: res.data,
             });
-        }).catch(() => {
+        })
+            .catch(() => {
             dispatch({
-                type: 'FETCH_ERROR'
+                type: 'FETCH_ERROR',
             });
         });
     }, []);
     return (react_1.default.createElement("div", null,
         state.loading
             ? 'Loading...'
-            // @ts-ignore
-            : state.post.title,
-        state.error
-            ? state.error
-            : null));
+            : // @ts-ignore
+                state.post.title,
+        state.error ? state.error : null));
 }
 exports.default = DataFetchingTwo;

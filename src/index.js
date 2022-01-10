@@ -7,6 +7,7 @@ const react_1 = __importDefault(require("react"));
 const react_dom_1 = __importDefault(require("react-dom"));
 require("./datatype");
 require("./enum");
+require("./enum2");
 // import App from './useState/App';
 // import App from './useEffect/App';
 // import App from './useContext/App';
