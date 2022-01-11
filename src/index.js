@@ -9,6 +9,7 @@ require("./datatype");
 require("./enum");
 require("./enum2");
 require("./function");
+require("./class");
 // import App from './useState/App';
 // import App from './useEffect/App';
 // import App from './useContext/App';
