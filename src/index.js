@@ -11,6 +11,7 @@ require("./enum2");
 require("./function");
 require("./class");
 require("./class2");
+require("./generics");
 // import App from './useState/App';
 // import App from './useEffect/App';
 // import App from './useContext/App';

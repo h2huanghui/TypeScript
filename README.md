@@ -182,3 +182,5 @@ interface List {
 
 - 类与接口的关系
   ![avatar](/src/public/imgs/interface_class.png)
+
+- 泛型： 不预先确定的数据类型，具体的类型在使用的时候才能确定
