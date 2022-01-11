@@ -121,3 +121,23 @@ interface List {
   - 字符串索引
 
 - 4.5 函数类型接口
+
+  - 通过变量声明
+
+  ```
+  let add: (x: number, y: number) => number;
+  ```
+
+  - interface 定义： 创建新的类型，接口之间还可以继承、声明合并
+
+  ```
+    interface Add {
+       (x: number, y: number): number;
+    }
+  ```
+
+  - type 定义： 不是创建新的类型，只是为一个给定的类型起一个名字
+
+  ```
+  type Add = (x: number, y: number) => number;
+  ```
