@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import './datatype';
 import './enum';
 import './enum2';
+import './function';
 
 // import App from './useState/App';
 // import App from './useEffect/App';
