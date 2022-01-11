@@ -140,4 +140,12 @@ interface List {
 
   ```
   type Add = (x: number, y: number) => number;
+
   ```
+
+- 4.6 函数知识点梳理
+  - 函数定义
+  - 函数参数可选
+  - 函数参数默认值
+  - 函数参数个数不确定
+  - 函数重载
