@@ -6,6 +6,7 @@ import './enum';
 import './enum2';
 import './function';
 import './class';
+import './class2'
 
 // import App from './useState/App';
 // import App from './useEffect/App';
